@@ -33,8 +33,9 @@
   </project>
 
   <project remote="zeppi" revision="master" name="meta-fit-bsp" path="sources/meta-fit-bsp"/>
-  <project remote="zeppi" revision="master" name="meta-phor-v2" path="sources/meta-phor-v2"/>
+  <project remote="zeppi" revision="master" name="meta-phor-v2" path="sources/meta-phor-v2" >
      <linkfile src="tools/fit-setup-build.sh" dest="fit-setup-build.sh"/>
      <linkfile src="README-FIT" dest="README-FIT"/>
+  </project>
 
 </manifest>
